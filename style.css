@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(coral 0%, orange 100%);
+    display: table;  
+    z-index: 9;
+}
+
+#img1 {
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+#info {
+   font-family: cursive;
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#videos {
+    font-family: cursive;
+}
+
+html {scroll-behavior: smooth;}
+
+#contact {
+    color: black;
+}
+
+h2 {
+    color: white;
+    display: inline;
+    text-shadow: none
+}
+ 
+i {
+    color: black;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.fa {
+    height: 50px;
+}
+
+input {
+    background: grey;
+    
+}
+    
